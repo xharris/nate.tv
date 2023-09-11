@@ -6,6 +6,6 @@
 
 ## Installation
 
-1. Download crx file
+1. Download [crx](https://github.com/xharris/nate.tv/raw/main/nate-tv.crx)
 2. Go to chrome://extensions
 3. Drag .crx file onto page
