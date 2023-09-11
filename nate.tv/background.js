@@ -7,7 +7,7 @@ chrome.runtime.onMessage.addListener((req, sender, res) => {
             console.info('Get settings', settings)
             res({
                 resumeBehavior: settings.resumeBehavior ?? 'js',
-                saveAfterResume: settings.saveAfterResume ?? false
+                saveAfterResume: settings.saveAfterResume ?? true
             })
         })
         return true
