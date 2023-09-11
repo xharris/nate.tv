@@ -6,7 +6,7 @@ chrome.runtime.onMessage.addListener((req, sender, res) => {
         chrome.storage.sync.get().then(settings => {
             console.info('Get settings', settings)
             res({
-                resumeBehavior: settings.resumeBehavior ?? 'video',
+                resumeBehavior: settings.resumeBehavior ?? 'js',
                 saveAfterResume: settings.saveAfterResume ?? false
             })
         })
